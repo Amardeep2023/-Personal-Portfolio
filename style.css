@@ -1,0 +1,147 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.Body{
+    background-color: rgb(99, 205, 244);
+    color: white
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: rgb(15, 185, 200);
+    align-items: center;
+}
+ul 
+{
+    display: flex;
+    text-decoration: none;
+    font-size: large;
+    gap: 1.5rem;
+}
+nav ul li {
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li  :hover{
+    background-color: rgb(8, 224, 192);
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+.left
+{
+    font-size: 30px;
+}
+.first
+{
+   
+    margin-top: 50px;
+    margin: 25px 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first div>
+{
+   width: 30%;
+    
+}
+.leftsec
+{
+  
+    font-size: 40px;
+    
+
+}
+.rightsec
+{
+   
+   margin-top: 40px;
+
+}
+img
+{
+    height: 400px;
+}
+.color
+{
+    color: rgb(66, 76, 225);
+}
+#element
+{
+    color: rgb(66, 76, 225);
+}
+.box
+{
+    font-size: 50px;
+}
+main hr
+{
+    background-color: #000;
+    height: 5px;
+    border: 0;
+    margin: 20px 20px;
+}
+.second
+{
+    max-width: 85vw;
+    margin: auto;
+    height: 50vh;
+    font-size: 2rem;
+}
+.horiline
+{   
+    display: flex;
+    max-width: 80vw;
+    background-color: black;
+    height: 2px;
+    margin-top: 25px;
+}
+.verline
+{
+    
+    height: 80px;
+    width: 1px;
+    background-color: #000;
+    margin: 0 120px;
+    
+}
+.vertitle
+{
+  position: relative;
+  margin-top: 80px;
+  font-size: 25px;
+  color: rgb(27, 5, 228);
+}
+.verdis
+{
+    position: relative;
+    font-size: 20px;
+    color: rgb(228, 5, 195);
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+.Foot
+{
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+ background-color: #000;
+ color: aliceblue;
+ 
+}
+.footer a{
+    color: aliceblue;
+}
